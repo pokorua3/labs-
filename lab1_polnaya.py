@@ -14,14 +14,14 @@ x1, y1 = cr_points(50, (0, 5), (0, 5), 0)
 x2, y2 = cr_points(50, (6, 10), (6, 10), 1)
 x, y = x1 + x2, y1 + y2
 
-def split_data(x, y, p=0.8):
+def sp_d(x, y, p = 0.8):
     data = list(zip(x, y))
-    random.shuffle(data)
-    split_idx = int(len(data) * p)
-    train, test = data[:split_idx], data[split_idx:]
+    random.shuffle(d)
+    split_idx = int(len(d) * p)
+    train, test = d[:split_idx], d[split_idx:]
     return list(zip(*train)), list(zip(*test))
 
-(x_train, y_train), (x_test, y_test) = split_data(x, y)
+(x_train, y_train), (x_test, y_test) = sp_d(x, y)
 
 def fit(x_train, y_train, x_test, k=3):
     def euclidean(p1, p2):
