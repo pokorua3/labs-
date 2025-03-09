@@ -4,6 +4,7 @@ import random
 #14 задача
 #Текст содержит слова и целые числа от 1 до 10. Найти сумму включенных в текст чисел
 
+text = 
 numbers = set(map(str, range(1, 11)))
 summ = 0
 file = open('lab1.txt', "r")
