@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from collections import Counter
 import tkinter as tk
 from tkinter import messagebox
+#Постановка задачи: использовать метод k ближайших соседей для реализации классификации точек в двумерном пространстве
 
 def cr_points(count, x_range, y_range, category):
     points = [[random.uniform(*x_range), random.uniform(*y_range)] for _ in range(count)]
