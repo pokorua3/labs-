@@ -2,6 +2,7 @@ import random
 #random.seed(116)
 #print(random.randint(1, 20))
 #20 задача
+#Если 1-й отрицательный элемент массива расположен до минимального, то найти сумму элементов с четными индексами, иначе - с нечетными
 
 file = open('lab2.txt', 'r')
 numbers = list(map(int, file.readline().split()))
