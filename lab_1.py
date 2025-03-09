@@ -5,7 +5,7 @@ import random
 
 numbers = set(map(str, range(1, 11)))
 summ = 0
-file = open('C:/Users/dasha/OneDrive/Рабочий стол/lab1.txt', "r")
+file = open('lab1.txt', "r")
 for i in file.read().split():
     chifr = i.strip(",. ")
     if chifr in numbers:
