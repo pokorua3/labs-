@@ -3,7 +3,7 @@ import random
 #print(random.randint(1, 20))
 #20 задача
 
-file = open('C:/Users/dasha/OneDrive/Рабочий стол/lab2.txt', 'r')
+file = open('lab2.txt', 'r')
 numbers = list(map(int, file.readline().split()))
 file.close()
 first_otr = -1
@@ -24,6 +24,6 @@ if first_otr != -1 and min_pol != -1:
 else:
     result_sum = 0
 
-file = open("C:/Users/dasha/OneDrive/Рабочий стол/lab2_result.txt", "w")
+file = open("lab2_result.txt", "w")
 file.write(str(result_sum))
 file.close()
