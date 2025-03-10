@@ -1,9 +1,9 @@
 import random
 import math
 import matplotlib.pyplot as plt
-
-x1_min, x1_max, y1_min, y1_max = 2, 8, 2, 8
-x2_min, x2_max, y2_min, y2_max = 5, 17, 5, 17
+#Постановка задачи: использовать метод k ближайших соседей для реализации классификации точек в двумерном пространстве
+x1_min, x1_max, y1_min, y1_max = 2, 8, 2, 8  # x - список с координатами точек на плоскости 
+x2_min, x2_max, y2_min, y2_max = 5, 17, 5, 17 # y – список с метками классов соответствующие точкам 
 
 data_points = []
 labels = []
