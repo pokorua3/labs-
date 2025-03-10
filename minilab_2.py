@@ -4,7 +4,7 @@ import random
 #20 задача
 #Если 1-й отрицательный элемент массива расположен до минимального, то найти сумму элементов с четными индексами, иначе - с нечетными
 
-file = open('lab2.txt', 'r')
+file = open('minilab2_file1.txt', 'r')
 numbers = list(map(int, file.readline().split()))
 file.close()
 first_otr = -1
@@ -25,6 +25,6 @@ if first_otr != -1 and min_pol != -1:
 else:
     result_sum = 0
 
-file = open("lab2_result.txt", "w")
+file = open("minilab2_result_file.txt", "w")
 file.write(str(result_sum))
 file.close()
