@@ -20,7 +20,7 @@ def read_data(a):
 
 
 def graphic():
-    x, y = read_data('C:/Users/dasha/OneDrive/Рабочий стол/vvod_dannie.txt')
+    x, y = read_data('minilab4_file.txt')
     ax.clear()
     ax.plot(x, y, marker='o', linestyle='-', color='b')
     ax.grid()
