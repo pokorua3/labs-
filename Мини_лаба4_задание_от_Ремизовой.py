@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
-df = pd.read_excel("C:/Users/dasha/Downloads/Telegram Desktop/датасет-1.xlsx")
+df = pd.read_excel("датасет-1.xlsx")
 print(df.head())
 print(df.dtypes)
 
@@ -43,4 +43,3 @@ pred["predicted_price"] = p
 print(pred.head())
 
 pred.to_excel("new_predictions.xlsx", index=False)
-print("Результаты сохранены в new_predictions.xlsx")
