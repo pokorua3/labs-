@@ -5,8 +5,6 @@ from sklearn.cluster import MeanShift, AgglomerativeClustering, DBSCAN
 from sklearn.preprocessing import StandardScaler
 import time
 
-
-#ПРавильная
 def generate_data(data_type, n_samples=300, noise=0.05):
     np.random.seed(42)
     if data_type == "circles":
