@@ -67,4 +67,4 @@ def find_critical_speed(func, diffFunc, x0=3, epochs=100, tol=1e-2):
 
 
 critical_speed = find_critical_speed(func, diffFunc)
-print(f"Граничное значение speed: {critical_speed:.4f}")
+print(f"Граничное значение (speed): {critical_speed:.4f}")
