@@ -1,3 +1,4 @@
+# Методы К-ближайших соседей, Наивный Байесовский классификатор, Метод опорных векторов 
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import datasets
